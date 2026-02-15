@@ -4,6 +4,7 @@ tools: ['search/codebase', 'vscode/askQuestions', 'read/readFile', 'search', 'to
 description: 'Perform code review'
 ---
 Problem/Task: ${input:problemStatement:What is the problem we are trying to solve? }
+
 Proposed Solution: ${input:proposedSolution:What is the proposed solution? }
 
 Please review the proposed solution and identify any potential issues, including but not limited to:
